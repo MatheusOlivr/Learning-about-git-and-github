@@ -19,11 +19,11 @@ ls -a
 ### HOW TO CONFIGURE THE GIT:
 
 **You must use the command**
-** For configure E-mail**
+**For configure E-mail**
 ```bash
-	git config --global user.email "contato.matheusoliv@gmail.com"
+	git config --global user.email "youremail"
 ```
-** For configure the author name**
+**For configure the author name**
 ```bash
 	git config --global user.name "yourname"
 ```
@@ -51,12 +51,12 @@ git status
 **You must use the command:**
 
 
-** for Monitored only one modified file**
+**For Monitored only one modified file**
 ```bash
 git add <filename>
 ```
 
-** for Monitored all file that was modified**
+**For Monitored all file that was modified**
 ```bash
 git add -A 
 ```
