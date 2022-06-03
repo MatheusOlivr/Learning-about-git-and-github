@@ -19,11 +19,12 @@ ls -a
 ### HOW TO CONFIGURE THE GIT:
 
 **You must use the command**
-
+** For configure E-mail**
 ```bash
-/*For configure E-mail*/
 	git config --global user.email "contato.matheusoliv@gmail.com"
-/*For configure the author name*/
+```
+** For configure the author name**
+```bash
 	git config --global user.name "yourname"
 ```
 
@@ -31,11 +32,11 @@ ls -a
 
 ![https://imgur.com/oeA6yCtl.png](https://imgur.com/oeA6yCtl.png)
 
-**Staged → These files be those that was not committed.**
+* **Staged → These files be those that was not committed.**
 
-**Unmodified → These files be those that was committed.**
+* **Unmodified → These files be those that was committed.**
 
-**Modified → These files be those that was modify inside a commit, but still was not commited this modification.**
+* **Modified → These files be those that was modify inside a commit, but still was not commited this modification.**
 
 ### HOW TO SEE WHAT FILES ARE NOT BE MONITORED BY GIT:
 
@@ -49,10 +50,14 @@ git status
 
 **You must use the command:**
 
+
+** for Monitored only one modified file**
 ```bash
-/*for Monitored only one modified file*/
 git add <filename>
-/*for Monitored all file that was modified*/
+```
+
+** for Monitored all file that was modified**
+```bash
 git add -A 
 ```
 
